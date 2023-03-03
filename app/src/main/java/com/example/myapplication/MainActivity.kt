@@ -13,14 +13,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun fibonacciSequence() {
-        val imput = 15
+        val input = 15
         var sum: Int
         var t1 = 0
         var t2 = 1
 
-        println("A sequência de Fibonacci tem $imput termos:")
+        println("A sequência de Fibonacci tem $input termos:")
 
-        for (i in 0..imput) {
+        for (i in 0..input) {
             print("$t1 ")
             sum = t1 + t2
             t1 = t2
