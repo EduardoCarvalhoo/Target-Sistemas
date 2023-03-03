@@ -7,11 +7,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         fibonacciSequence()
         reverseWords()
     }
 
+    // Questão 2
     private fun fibonacciSequence() {
         val input = 15
         var sum: Int
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         println(t1)
     }
 
-
+    // Questão 5
     private fun reverseWords() {
         val name = "Empresa"
         var reverse = ""
